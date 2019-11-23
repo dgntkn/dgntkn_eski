@@ -1,0 +1,6 @@
+conf t
+interface {{ name }}.{{ vlan }}
+encapsulation dot1q {{ vlan }}
+ipv4 address {{ ip_address }}/29
+
+
