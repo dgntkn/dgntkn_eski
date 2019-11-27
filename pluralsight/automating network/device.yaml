@@ -1,0 +1,5 @@
+---
+- hostname: R1
+  device: 172.30.29.233
+- hostname: R2
+  device: 172.30.29.232

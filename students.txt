@@ -1,0 +1,8 @@
+james
+mark
+james
+& C:/Users/davutd/AppData/Local/Programs/Python/Python38/python.exe "c:/Users/davutd/Documents/github/pluralsight/getting started/pystudentManager.py"
+adw
+trw
+mark
+james

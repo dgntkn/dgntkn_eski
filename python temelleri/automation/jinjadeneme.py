@@ -1,10 +1,10 @@
 from jinja2 import Template, Environment
 
-#ipaddr_template = Template('{{interface}} has IP address {{ip_address}}')
+ipaddr_template = Template('{{interface}} has IP address {{ip_address}}')
 
-#interface1 = ipaddr_template.render(interface='Gi0/2/0', ip_address='10.1.1.1')
+interface1 = ipaddr_template.render(interface='Gi0/2/0', ip_address='10.1.1.1')
 
-#print(str(interface1))
+print(str(interface1))
 
 interfaces = [{'interface': 'ge-0/0/2', 'ip_address': '10.1.1.9'}, ##############################
               {'interface': 'ge-0/0/1', 'ip_address': '10.10.1.1'}, ### dictionary creating ##
